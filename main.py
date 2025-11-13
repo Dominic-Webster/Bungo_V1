@@ -14,8 +14,8 @@ def save_knowledge_base(file_path: str, data: dict):
         json.dump(data, file, indent=2)
 
 #find best match from dictionary
-def find_best_match(user_question: str, questions: list[str]) -> str | None:
-    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.6)
+def find_best_match(user_question: str, questions: list[str], cutval: float) -> str | None:
+    matches: list = get_close_matches(user_question, questions, n=1, cutoff=cutval)
     return matches[0] if matches else None
 
 #get answer for each question
@@ -33,10 +33,18 @@ def chat_bot():
     else:  # macOS or Linux
         os.system('clear')
         
+    valcut: float = 0.6
+    
     print('Bungo: Hi! I\'m Bungo, your friendly chatbot!')
     print('Bungo: Who am I talking to?')
     user_name: str = input('My name is: ')
     print('Bungo: Hi, ' + user_name)
+    print('Do you want to talk in normal or training mode?')
+    mode: str = input('Traing mode (Y/N): ')
+    if(mode == 'Y' | mode == "y"):
+        valcut = 1.0
+    else:
+        valcut = 0.6
     
     while True:
         user_input: str = input('You: ')
@@ -100,10 +108,10 @@ def chat_bot():
             print('Bungo: Why, you\'re ' + user_name + '! I remember that! Ask me something else!')    
             
         else:
-            best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]])
+            best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]], valcut)
         
             if best_match:
-                answer: str = get_answer_for_question(best_match, knowledge_base)
+                answer: str = get_answer_for_question(best_match, knowledge_base, valcut)
                 print(f'Bungo: {answer}')
             else:
                 print('Bungo: I don\'t know the answer. Can you teach me?')
