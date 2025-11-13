@@ -41,7 +41,7 @@ def chat_bot():
     print('Bungo: Hi, ' + user_name)
     print('Do you want to talk in normal or training mode?')
     mode: str = input('Traing mode (Y/N): ')
-    if(mode == 'Y' | mode == "y"):
+    if mode.lower() in ['yes', 'y']:
         valcut = 1.0
     else:
         valcut = 0.6
@@ -111,7 +111,7 @@ def chat_bot():
             best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]], valcut)
         
             if best_match:
-                answer: str = get_answer_for_question(best_match, knowledge_base, valcut)
+                answer: str = get_answer_for_question(best_match, knowledge_base)
                 print(f'Bungo: {answer}')
             else:
                 print('Bungo: I don\'t know the answer. Can you teach me?')
