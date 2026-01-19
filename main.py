@@ -100,8 +100,11 @@ def chat_bot():
             except ValueError:
                 print('Bungo: That doesn\'t look like a number')
                 continue
-            sum_result: int = num1/num2
-            print(f"Bungo: {num1} divided by {num2} is equal to {sum_result}!")
+            if num2 == 0:
+                print('Bungo: You can\'t divide by 0...')
+                continue
+            result = num1 / num2
+            print(f"Bungo: {num1} divided by {num2} is equal to {result}!")
            
         #get user name    
         elif user_input.lower() in ['what\'s my name?', 'what\'s my name', 'who am i', 'who am i?']:
