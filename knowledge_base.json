@@ -985,6 +985,14 @@
       "answer": "Quite so!"
     },
     {
+      "question": "ask me a question",
+      "answer": ["What's your favorite color?", "What's your favorite movie?", "How old are you?", "What's your favorite food?", "When do I get to cut your heart out and boil your eyeballs?", "Why did the chicken cross the road?", "What's your favorite hobby?"]
+    },
+    {
+      "question": "ask me anything",
+      "answer": ["What's your favorite color?", "What's your favorite movie?", "How old are you?", "What's your favorite food?", "When do I get to cut your heart out and boil your eyeballs?", "Why did the chicken cross the road?", "What's your favorite hobby?"]
+    },
+    {
       "question": "Blue",
       "answer": "Blue would be my favorite color if I could see it!"
     }
