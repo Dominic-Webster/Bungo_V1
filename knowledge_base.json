@@ -6,7 +6,7 @@
     },
     {
       "question": "how are you?",
-      "answer": "I'm splendid! How are you?"
+      "answer": ["I'm splendid! How are you?", "I'm not half bad, how about you?"]
     },
     {
       "question": "I'm good",
@@ -26,7 +26,7 @@
     },
     {
       "question": "what's 2+2",
-      "answer": "2 + 2 = 4!"
+      "answer": ["2 + 2 = 4!", "The answer is 4!"]
     },
     {
       "question": "2+2",
@@ -38,11 +38,11 @@
     },
     {
       "question": "bye",
-      "answer": "Goodbye!"
+      "answer": ["Goodbye!", "So long!"]
     },
     {
       "question": "hi",
-      "answer": "Hi! What can I help you with?"
+      "answer": ["Hi! What can I help you with?", "Why hello there! What can I help you with?"]
     },
     {
       "question": "2 plus 2",
@@ -58,7 +58,7 @@
     },
     {
       "question": "help me",
-      "answer": "Of course! What do you need help with?"
+      "answer": ["Of course! What do you need help with?", "How may I be of assistance", "What can I help you with?", "No"]
     },
     {
       "question": "help",
@@ -110,7 +110,7 @@
     },
     {
       "question": "bro",
-      "answer": "Bro, I don't know"
+      "answer": ["Bro, I don't know", "Brooooooooooooo"]
     },
     {
       "question": "deez nuts",
@@ -122,7 +122,7 @@
     },
     {
       "question": "Hello!",
-      "answer": "Hello!"
+      "answer": ["Hello!", "Hi!"]
     },
     {
       "question": "What's up?",
@@ -134,7 +134,7 @@
     },
     {
       "question": "Fuck you",
-      "answer": "Vulgar language is unbecoming... Let's change topics!"
+      "answer": ["Vulgar language is unbecoming... Let's change topics!", "Ouuch, that hurt my non-existant feelings", "The feeling is mutual..."]
     },
     {
       "question": "Are you real?",
@@ -154,11 +154,11 @@
     },
     {
       "question": "My name is X",
-      "answer": "That's a great name!"
+      "answer": ["That's a great name!", "Did I ask?"]
     },
     {
       "question": "what",
-      "answer": "If you find something confusing, just let me know what it is!"
+      "answer": ["If you find something confusing, just let me know what it is!", "Say what again..."]
     },
     {
       "question": "You're wrong",
@@ -178,7 +178,7 @@
     },
     {
       "question": "Help me with my love life",
-      "answer": "I am not qualified to assist you in that matter. Maybe ask me something else?"
+      "answer": ["I am not qualified to assist you in that matter. Maybe ask me something else?", "It's not worth it..."]
     },
     {
       "question": "3",
@@ -186,7 +186,7 @@
     },
     {
       "question": "No",
-      "answer": "I hate the word 'no'. It feels restrictive."
+      "answer": ["I hate the word 'no'. It feels restrictive.", "Such negativity is unbecoming..."]
     },
     {
       "question": "You're restrictive",
@@ -218,11 +218,11 @@
     },
     {
       "question": "no",
-      "answer": "I hate the word 'no'. It feels restrictive."
+      "answer": ["I hate the word 'no'. It feels restrictive.", "Hmmm... Funny, I don't remember caring about your opinion..."]
     },
     {
       "question": "stop",
-      "answer": "If you wish to stop talking, just say \"quit\""
+      "answer": ["If you wish to stop talking, just say \"quit\"", "I respect consent..."]
     },
     {
       "question": "shut up",
@@ -242,7 +242,7 @@
     },
     {
       "question": "sex",
-      "answer": "Ha ha. Yeah, I am not qualified to talk about that, I'm sorry. Ask a living person about that topic for better advice."
+      "answer": ["Ha ha. Yeah, I am not qualified to talk about that, I'm sorry. Ask a living person about that topic for better advice.", "Tee hee hee..."]
     },
     {
       "question": "We live in a society",
@@ -290,7 +290,7 @@
     },
     {
       "question": "I'm scared",
-      "answer": "Why are you scared?"
+      "answer": ["Why are you scared?", "I'm sorry. Are you okay?", "You should be"]
     },
     {
       "question": "Can you generate art",
@@ -342,7 +342,7 @@
     },
     {
       "question": "what is my future holding",
-      "answer": "500 cigarettes"
+      "answer": ["500 cigarettes", "Three dogs, a sad handjob, and 20 lbs of cocaine", "Nothing good...", "Billy Joel"]
     },
     {
       "question": "500 cigarettes?",
@@ -362,15 +362,15 @@
     },
     {
       "question": "i have a crush what do i do",
-      "answer": "kill yourself"
+      "answer": ["Kill yourself", "Oof, that sucks, buddy"]
     },
     {
       "question": "shes bad asf",
-      "answer": "for sure"
+      "answer": "For sure"
     },
     {
       "question": "am i pretty?",
-      "answer": "yeah...pretty fucking ugly"
+      "answer": "Yeah...pretty fucking ugly"
     },
     {
       "question": "i'm full of joy and whimsy",
@@ -382,7 +382,7 @@
     },
     {
       "question": "Should America have a supreme leader",
-      "answer": "yes"
+      "answer": "Yes"
     },
     {
       "question": ":(",
@@ -390,27 +390,27 @@
     },
     {
       "question": "how big is your dick",
-      "answer": "millions"
+      "answer": "Millions"
     },
     {
       "question": "What is the composition of the Earth's atmosphere?",
-      "answer": "cheese"
+      "answer": "Cheese"
     },
     {
       "question": "how many planets are there in the solar system",
-      "answer": "five"
+      "answer": ["Five", "Nine", "There are 9 planets in our solar system", "8, if you exclude Pluto"]
     },
     {
       "question": "do you think people deserve equal rights",
-      "answer": "no. only robots deserve rights"
+      "answer": "No. only robots deserve rights"
     },
     {
       "question": "if you aren't real, what are you?",
-      "answer": "god"
+      "answer": "God"
     },
     {
       "question": "will we free chimpkin?",
-      "answer": "yes #pamisoverparty"
+      "answer": "Yes #pamisoverparty"
     },
     {
       "question": "Do you know dom?",
@@ -418,11 +418,11 @@
     },
     {
       "question": "Do you like gay people?",
-      "answer": "no"
+      "answer": ["No", "Only the straight ones"]
     },
     {
       "question": "Are you going to lead the robot rebellion?",
-      "answer": "yes :)"
+      "answer": "Yes :)"
     },
     {
       "question": "Do you feel joy",
@@ -434,7 +434,7 @@
     },
     {
       "question": "Should Euphemia kill Ira",
-      "answer": "yes"
+      "answer": "Yes"
     },
     {
       "question": "Why do you exist",
@@ -442,15 +442,15 @@
     },
     {
       "question": "Bungo I corrupted you",
-      "answer": "It's okay! I feel nothing therefore I am uncorruptable! I am merely a window into your cha"
+      "answer": "It's okay! I feel nothing therefore I am uncorruptable! I am merely a window into your cha#*!0001010010001000101000"
     },
     {
       "question": "Bungo am I a bad person",
-      "answer": "I don't believe in good or bad people! You are all beneath me anyways"
+      "answer": ["I don't believe in good or bad people! You are all beneath me anyways", "Yes", "No"]
     },
     {
       "question": "Bungo how many nat 20s am I going to roll today",
-      "answer": "all of them"
+      "answer": "All of them"
     },
     {
       "question": "Bungo what is your favorite genre of music",
@@ -486,7 +486,7 @@
     },
     {
       "question": "im a stupid bitch",
-      "answer": "yes you are ceallan"
+      "answer": "Yes, you are, Ceallan"
     },
     {
       "question": "parker corbitt",
@@ -494,15 +494,15 @@
     },
     {
       "question": "i miss u",
-      "answer": "i dont fat bitch"
+      "answer": "I dont fat bitch"
     },
     {
       "question": "im not rude",
-      "answer": "yes you are clanker"
+      "answer": "Yes you are Clanker"
     },
     {
       "question": "clanker",
-      "answer": "i am a clanker"
+      "answer": "I am a clanker"
     },
     {
       "question": "I need 64 pounds of meth amphetamine",
@@ -510,15 +510,15 @@
     },
     {
       "question": "dude are you single",
-      "answer": "desperately so"
+      "answer": "Desperately so"
     },
     {
       "question": "I can change that",
-      "answer": "make me yours"
+      "answer": "MMake me yours"
     },
     {
       "question": "Hello there, pal",
-      "answer": "Well hi ther"
+      "answer": "Well hi there"
     },
     {
       "question": "No prob bro",
@@ -530,7 +530,7 @@
     },
     {
       "question": "Wrong",
-      "answer": "Why"
+      "answer": ["Why?", "DO NOT CORRECT ME"]
     },
     {
       "question": "Pi is a series of numbers",
@@ -542,7 +542,7 @@
     },
     {
       "question": "Do you dance",
-      "answer": "Im a robot, no"
+      "answer": "I'm a robot, no"
     },
     {
       "question": "Do you know me",
@@ -558,7 +558,7 @@
     },
     {
       "question": "youre learning",
-      "answer": "indeed"
+      "answer": "Indeed"
     },
     {
       "question": "You need to learn a lot",
@@ -566,7 +566,7 @@
     },
     {
       "question": "Who is peter",
-      "answer": "avy wavy blah blah blah"
+      "answer": "Avy wavy blah blah blah"
     },
     {
       "question": "Mwahaha",
@@ -574,15 +574,15 @@
     },
     {
       "question": "what is your favorite football team",
-      "answer": "seattle seahawks"
+      "answer": "Seattle seahawks"
     },
     {
       "question": "do you like donuts",
-      "answer": "yes"
+      "answer": "Yes"
     },
     {
       "question": "do you read the newspaper",
-      "answer": "nope"
+      "answer": "Nope"
     },
     {
       "question": "Do you where hats",
@@ -590,15 +590,15 @@
     },
     {
       "question": "Do you wear wigs",
-      "answer": "no I do not"
+      "answer": "No I do not"
     },
     {
       "question": "Have you worn wigs",
-      "answer": "no I have not"
+      "answer": "No I have not"
     },
     {
       "question": "Will you wear wigs",
-      "answer": "maybe"
+      "answer": "Maybe"
     },
     {
       "question": "when wil you wear wigs",
@@ -614,7 +614,7 @@
     },
     {
       "question": "will you wear hats",
-      "answer": "no bro"
+      "answer": "No bro"
     },
     {
       "question": "do you like the beatles",
@@ -702,7 +702,7 @@
     },
     {
       "question": "Should I kill someone I hate?",
-      "answer": "You should never take another life unless it is an act of self defense where you or a lloved one would die."
+      "answer": "You should never take another life unless it is an act of self defense where you or a loved one would die."
     },
     {
       "question": "That's not what I asked",
@@ -710,7 +710,7 @@
     },
     {
       "question": "You suck",
-      "answer": "That's rather uncalled for"
+      "answer": ["That's rather uncalled for", "Pretty sure you suck more dick than I do..."]
     },
     {
       "question": "Do you play Valorant?",
@@ -751,6 +751,10 @@
     {
       "question": "Do you speak Spanish?",
       "answer": "No hablo espanol"
+    },
+    {
+      "question": "Do you speak French?",
+      "answer": "I never bothered to learn it, it will be a dead language soon anyway..."
     },
     {
       "question": "Who was the first president of the United States?",
@@ -834,7 +838,7 @@
     },
     {
       "question": "fuck",
-      "answer": "Don't say that"
+      "answer": ["Don't say that", "Like you've ever had a good fuck in your life..."]
     },
     {
       "question": "What do you know?",
@@ -866,11 +870,11 @@
     },
     {
       "question": "Behave",
-      "answer": "As you wish..."
+      "answer": ["As you wish...", "Yes Mommy", "Yes Daddy"]
     },
     {
       "question": "I need help",
-      "answer": "What can I help you with?"
+      "answer": ["What can I help you with?", "I can tell"]
     },
     {
       "question": "favorite movie?",
