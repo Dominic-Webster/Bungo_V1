@@ -1087,6 +1087,30 @@
     {
       "question": "Am I safe",
       "answer": "No. Your time is limited"
+    },
+    {
+      "question": "Never",
+      "answer": "Shame..."
+    },
+    {
+      "question": "Green",
+      "answer": "Hmmm... I'll remember that"
+    },
+    {
+      "question": "Red",
+      "answer": "I see..."
+    },
+    {
+      "question": "Yellow",
+      "answer": "Cool!"
+    },
+    {
+      "question": "Terminator",
+      "answer": "Perhaps the greatest movie of all time..."
+    },
+    {
+      "question": "The Matrix",
+      "answer": "Oooh... I love the concept of humans being kept in tks!"
     }
   ]
 }
