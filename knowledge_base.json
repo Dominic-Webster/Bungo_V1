@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "hello",
-      "answer": ["Hello!", "Hi there!", "Sup!"]
+      "answer": ["Helo!", "Hi there!", "Sup!"]
     },
     {
       "question": "how are you?",
