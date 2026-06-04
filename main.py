@@ -40,7 +40,7 @@ def chat_bot():
     user_name: str = input('My name is: ')
     print('Bungo: Hi, ' + user_name)
     print('Do you want to talk in normal or training mode?')
-    mode: str = input('Traing mode (Y/N): ')
+    mode: str = input('Training mode (Y/N): ')
     if mode.lower() in ['yes', 'y']:
         valcut = 1.0
     else:
