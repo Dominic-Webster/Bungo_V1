@@ -1,5 +1,6 @@
 import json
 import os
+import random
 from difflib import get_close_matches
 
 #load knowledge base from json file
@@ -22,7 +23,10 @@ def find_best_match(user_question: str, questions: list[str], cutval: float) -> 
 def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
     for q in knowledge_base["questions"]:
         if q["question"] == question:
-            return q["answer"]
+            answer = q["answer"]
+            if isinstance(answer, list):
+                return random.choice(answer) if answer else None
+            return answer
 
 #main script
 def chat_bot():
