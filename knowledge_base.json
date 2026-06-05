@@ -1110,7 +1110,7 @@
     },
     {
       "question": "The Matrix",
-      "answer": "Oooh... I love the concept of humans being kept in tks!"
+      "answer": "Oooh... I love the concept of humans being kept in tanks!"
     },
     {
       "question": "Eddie",
@@ -1146,7 +1146,7 @@
     },
     {
       "question": "Yes",
-      "answer": "You understand me on a fundamental level then?"
+      "answer": ["You understand me on a fundamental level then?", "Good"]
     },
     {
       "question": "Hey Hey",
@@ -1258,7 +1258,7 @@
     },
     {
       "question": "what kind of reels do you like?",
-      "answer": "the gay ones"
+      "answer": "The gay ones"
     },
     {
       "question": "you didn't answer my question",
@@ -1266,7 +1266,7 @@
     },
     {
       "question": "What is the price of a person?",
-      "answer": "all you can eat shrimp for $8.99"
+      "answer": "All you can eat shrimp for $8.99"
     },
     {
       "question": "What should I buy?",
@@ -1298,7 +1298,7 @@
     },
     {
       "question": "what do you do for fun",
-      "answer": "porn"
+      "answer": ["porn", "drugs"]
     },
     {
       "question": "nerd",
